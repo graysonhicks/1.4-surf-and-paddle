@@ -1,3 +1,42 @@
+html {
+  max-width: 1300px; }
 
+* {
+  box-sizing: border-box; }
+
+ul {
+  list-style: none; }
+
+header {
+  height: 523px; }
+
+.headline {
+  margin: auto 0;
+  text-align: center; }
+
+.article {
+  display: inline-block;
+  width: 50%;
+  float: left; }
+
+.sidebar {
+  display: inline-block;
+  width: 30%; }
+
+header {
+  background-image: url("img/header.jpg"); }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: Oswald;
+  color: #083452; }
+
+p,
+span {
+  font-family: Open sans; }
 
 /*# sourceMappingURL=style.css.map */
