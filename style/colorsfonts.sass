@@ -2,10 +2,14 @@ $contentfont: Open sans
 $headingfont: Oswald
 $tintcolor: #106DB3
 $darkheadingcolor:#083452
-$lightheadingcolor: #106DB3
+$lightheadingcolor: $tintcolor
+$headlinecolor: #FFFFFF
+$headlineshadowcolor: $tintcolor
 
 header
-  background-image: url("img/header.jpg")
+  background-image: url("../img/header.jpg")
+  background-position: center
+  background-size: cover
 
 h1,
 h2,
@@ -15,6 +19,10 @@ h5,
 h6
   font-family: $headingfont
   color: $darkheadingcolor
+
+.headline
+  h1
+    color: $headlinecolor
 
 p,
 span

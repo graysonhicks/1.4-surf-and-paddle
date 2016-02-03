@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAQA,MAAM;EACJ,gBAAgB,EAAE,wBAAwB;EAC1C,mBAAmB,EAAE,MAAM;EAC3B,eAAe,EAAE,KAAK;;AAExB;;;;;EAAG;EAMD,WAAW,EAlBC,MAAM;EAmBlB,KAAK,EAjBW,OAAO;;AAoBvB,YAAE;EACA,KAAK,EAnBO,OAAO;;AAqBvB;IAAE;EAEA,WAAW,EA5BC,SAAS",
+"sources": ["colorsfonts.sass"],
+"names": [],
+"file": "colorsfonts.css"
+}

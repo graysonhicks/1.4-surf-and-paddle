@@ -1,7 +1,12 @@
 @import "mixins"
 
+/* Document */
+
 html
   max-width: 1300px
+
+img
+  max-width: 100%
 
 *
   box-sizing: border-box
@@ -9,16 +14,28 @@ html
 ul
   list-style: none
 
+/* Header */
+
 header
   height: 523px
 
+.top-nav-list
+  float: right
+  li
+    float: left
+    display: inline
+
 .headline
   @include totalcenter
+
+/* Article */
 
 .article
   display: inline-block
   width: 50%
   float: left
+
+/* Sidebar */
 
 .sidebar
   display: inline-block

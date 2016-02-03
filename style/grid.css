@@ -36,25 +36,4 @@ header {
   display: inline-block;
   width: 30%; }
 
-header {
-  background-image: url("../img/header.jpg");
-  background-position: center;
-  background-size: cover; }
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: Oswald;
-  color: #083452; }
-
-.headline h1 {
-  color: #FFFFFF; }
-
-p,
-span {
-  font-family: Open sans; }
-
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=grid.css.map */
