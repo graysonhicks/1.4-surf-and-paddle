@@ -1,6 +1,6 @@
 /* Document */
 html {
-  max-width: 1300px; }
+  max-width: 1301px; }
 
 img {
   max-width: 100%; }
@@ -35,5 +35,34 @@ header {
 .sidebar {
   display: inline-block;
   width: 30%; }
+
+.author-social li {
+  float: left;
+  display: inline-block; }
+
+/* Subfooter */
+.sub-footer {
+  margin: auto 0;
+  text-align: center; }
+
+.footer-images-list {
+  padding: 0; }
+  .footer-images-list li {
+    float: left;
+    display: inline-block;
+    float: none;
+    margin-left: -4px; }
+
+/*Footer */
+footer {
+  margin: 0;
+  padding: 0;
+  width: 1300px; }
+
+.footer-nav-list {
+  float: right; }
+  .footer-nav-list li {
+    float: left;
+    display: inline-block; }
 
 /*# sourceMappingURL=grid.css.map */

@@ -3,7 +3,7 @@
 /* Document */
 
 html
-  max-width: 1300px
+  max-width: 1301px
 
 img
   max-width: 100%
@@ -40,3 +40,32 @@ header
 .sidebar
   display: inline-block
   width: 30%
+
+.author-social li
+  @include listflatten
+
+/* Subfooter */
+
+.sub-footer
+  @include totalcenter
+
+.footer-images-list
+  padding: 0
+  li
+    @include listflatten
+    float: none
+    margin-left: -4px
+
+
+
+/*Footer*/
+
+footer
+  margin: 0
+  padding: 0
+  width: 1300px
+
+.footer-nav-list
+  float: right
+  li
+    @include listflatten
