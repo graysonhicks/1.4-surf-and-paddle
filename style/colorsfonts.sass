@@ -11,6 +11,7 @@ $bordercolor: rgb(231, 235, 238)
 $graycolor: rgb(164, 179, 191)
 $articletext: rgb(94, 104, 111)
 
+
 /* Document */
 a
   text-decoration: none
@@ -101,6 +102,26 @@ h3,
     color: $lightblue
     font-size: 28px
     line-height: 28px
+
+.article-footer
+  a
+    color: white
+    background-color: $graycolor
+    &:last-of-type
+      background-color: $lightblue
+
+.fa-comment,
+.fa-cloud-upload
+  color: $headlinecolor
+  background-color: $articletext
+
+.fa-share-square-o
+  color: $headlinecolor
+  background-color: $darkblue
+
+
+
+
 
 
 /* Sidebar */
