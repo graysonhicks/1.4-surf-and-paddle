@@ -12,8 +12,7 @@ img
 ul
   list-style: none
 
-.main-content
-  padding-top: 38px
+
 
 /* HEADER */
 
@@ -23,13 +22,16 @@ ul
 .top-nav
   max-width: 1018px
   margin: 0 auto
-  padding-left: 15px
+  h2
+    padding-left: 4px
+    display: inline-block
+    vertical-align: middle
+  img
+    vertical-align: middle
 
 .top-nav-list
   float: right
   margin-top: 17px
-  padding-left: 0
-  margin-right: 45px
   li
     float: left
     display: inline
@@ -37,6 +39,7 @@ ul
       padding-left: 15px
     &:nth-child(3)
       padding-left: 7px
+    letter-spacing: .1px
   i
     transform: rotateY(180deg)
     position: relative
@@ -54,36 +57,41 @@ ul
   margin-top: 5px
   height: 55px
   width: 55px
-
-
-
-.top-nav
-  h2
-    padding-left: 4px
-    display: inline-block
-    vertical-align: middle
-  img
-    vertical-align: middle
+  margin-left: 15px
 
 /* ARTICLE */
 
+.main-content
+  padding-top: 38px
+  max-width: 75.384615384615%
+  margin: 0 auto
+  padding-left: 0
+
 .article
   display: inline-block
-  width: 66%
+  max-width: 66%
   float: left
-  padding-left: 12%
-  padding-right: 6%
+  h1
+    margin-top: 14px
 
 .headshot
+  img
   border-radius: 100%
+
 
 /* SIDEBAR */
 
 .sidebar
   display: inline-block
-  width: 33%
   padding-top: 45px
-  padding-right: 12%
+  padding-left: 75px
+  max-width: 33%
+
+.advertisement
+  text-align: right
+
+.author-pic
+  text-align: center
 
 .author-social li
   @include listflatten
