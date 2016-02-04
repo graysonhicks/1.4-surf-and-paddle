@@ -1,6 +1,6 @@
 @import "mixins"
 
-/* Document */
+/* DOCUMENT */
 
 html
   max-width: 1301px
@@ -17,14 +17,14 @@ ul
 .main-content
   padding-top: 38px
 
-/* Header */
+/* HEADER */
 
 .header-container
   height: 523px
 
 .top-nav-list
   float: right
-  margin-right: 169px
+  margin-right: percentage(169/1300)
   li
     float: left
     display: inline
@@ -32,23 +32,27 @@ ul
       padding-left: 15px
     &:nth-child(3)
       padding-left: 7px
-
+  i
+    transform: rotateY(180deg)
+    position: relative
+    bottom: 2px
 
 .headline
   @include totalcenter
+  padding-top: 47px
 
 .logo
-  margin-left: 137px
+  margin-left: percentage(140/1300)
   margin-top: 5px
   height: 55px
   width: 55px
 
-.top-nav-list i
-  transform: rotateY(180deg)
-  position: relative
-  bottom: 2px
+.top-nav span
+  padding-left: 3px
+  display: inline
+  vertical-align: 121%
 
-/* Article */
+/* ARTICLE */
 
 .article
   display: inline-block
@@ -60,7 +64,7 @@ ul
 .headshot
   border-radius: 100%
 
-/* Sidebar */
+/* SIDEBAR */
 
 .sidebar
   display: inline-block
@@ -82,15 +86,13 @@ ul
     @include listflatten
     float: none
     margin-left: -5px
+    width: percentage(325/1300)
 
-
-
-/*Footer*/
+/*FOOTER*/
 
 footer
   margin: 0
   padding: 0
-  width: 1300px
 
 .footer-nav-list
   float: right

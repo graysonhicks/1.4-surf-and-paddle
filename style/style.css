@@ -1,4 +1,4 @@
-/* Document */
+/* DOCUMENT */
 html {
   max-width: 1301px; }
 
@@ -14,13 +14,13 @@ ul {
 .main-content {
   padding-top: 38px; }
 
-/* Header */
+/* HEADER */
 .header-container {
   height: 523px; }
 
 .top-nav-list {
   float: right;
-  margin-right: 169px; }
+  margin-right: 13%; }
   .top-nav-list li {
     float: left;
     display: inline; }
@@ -28,23 +28,28 @@ ul {
       padding-left: 15px; }
     .top-nav-list li:nth-child(3) {
       padding-left: 7px; }
+  .top-nav-list i {
+    transform: rotateY(180deg);
+    position: relative;
+    bottom: 2px; }
 
 .headline {
   margin: auto 0;
-  text-align: center; }
+  text-align: center;
+  padding-top: 47px; }
 
 .logo {
-  margin-left: 137px;
+  margin-left: 10.76923%;
   margin-top: 5px;
   height: 55px;
   width: 55px; }
 
-.top-nav-list i {
-  transform: rotateY(180deg);
-  position: relative;
-  bottom: 2px; }
+.top-nav span {
+  padding-left: 3px;
+  display: inline;
+  vertical-align: 121%; }
 
-/* Article */
+/* ARTICLE */
 .article {
   display: inline-block;
   width: 66%;
@@ -55,7 +60,7 @@ ul {
 .headshot {
   border-radius: 100%; }
 
-/* Sidebar */
+/* SIDEBAR */
 .sidebar {
   display: inline-block;
   width: 33%;
@@ -77,13 +82,13 @@ ul {
     float: left;
     display: inline-block;
     float: none;
-    margin-left: -5px; }
+    margin-left: -5px;
+    width: 25%; }
 
-/*Footer */
+/*FOOTER */
 footer {
   margin: 0;
-  padding: 0;
-  width: 1300px; }
+  padding: 0; }
 
 .footer-nav-list {
   float: right; }
@@ -113,10 +118,7 @@ header {
 
 .top-nav span {
   color: #073551;
-  font-size: 12px;
-  display: inline-block;
-  position: relative;
-  bottom: 25px;
+  font-size: 14px;
   font-family: Open sans; }
 
 .top-nav,
@@ -136,19 +138,18 @@ h4 {
 
 .headline h1 {
   color: white;
-  font-size: 77px;
+  font-size: 88px;
   font-weight: lighter;
   text-shadow: 1px 1px 2px #073551;
   margin-top: 83px;
   margin-bottom: 0;
   letter-spacing: 2px; }
-.headline p {
+.headline h2 {
   color: #073551;
-  font-size: 11px;
+  font-size: 12px;
   margin-top: 0;
   position: relative;
-  bottom: 15px;
-  letter-spacing: 1px; }
+  bottom: 15px; }
 
 /* Article */
 p,
