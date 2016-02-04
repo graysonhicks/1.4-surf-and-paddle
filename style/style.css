@@ -1,7 +1,4 @@
 /* DOCUMENT */
-html {
-  max-width: 1301px; }
-
 img {
   max-width: 100%; }
 
@@ -18,9 +15,16 @@ ul {
 .header-container {
   height: 523px; }
 
+.top-nav {
+  max-width: 1018px;
+  margin: 0 auto;
+  padding-left: 15px; }
+
 .top-nav-list {
   float: right;
-  margin-right: 13%; }
+  margin-top: 17px;
+  padding-left: 0;
+  margin-right: 45px; }
   .top-nav-list li {
     float: left;
     display: inline; }
@@ -36,18 +40,23 @@ ul {
 .headline {
   margin: auto 0;
   text-align: center;
-  padding-top: 47px; }
+  padding-top: 43px; }
+  .headline h1 {
+    display: inline-block;
+    margin: 0 auto;
+    letter-spacing: 0.00001em; }
 
 .logo {
-  margin-left: 10.76923%;
   margin-top: 5px;
   height: 55px;
   width: 55px; }
 
-.top-nav span {
-  padding-left: 3px;
-  display: inline;
-  vertical-align: 121%; }
+.top-nav h2 {
+  padding-left: 4px;
+  display: inline-block;
+  vertical-align: middle; }
+.top-nav img {
+  vertical-align: middle; }
 
 /* ARTICLE */
 .article {
@@ -101,6 +110,9 @@ footer {
 a {
   text-decoration: none; }
 
+body {
+  font-family: Oswald; }
+
 h1,
 h2,
 h3,
@@ -116,34 +128,34 @@ header {
   background-size: cover;
   background-position: center; }
 
-.top-nav span {
+.top-nav h2 {
   color: #073551;
-  font-size: 14px;
-  font-family: Open sans; }
+  font-size: 15px;
+  display: inline-block;
+  font-weight: lighter;
+  letter-spacing: 0.6px; }
 
 .top-nav,
 h1,
+h2,
 h3,
 h4 {
   text-transform: uppercase; }
 
-.top-nav-list {
-  font-family: Oswald; }
-  .top-nav-list i {
-    color: #073551;
-    font-size: 16px; }
-  .top-nav-list a {
-    color: #073551;
-    font-size: 16px; }
+.top-nav-list i {
+  color: #073551;
+  font-size: 16px; }
+.top-nav-list a {
+  color: #073551;
+  font-size: 16px; }
 
 .headline h1 {
   color: white;
-  font-size: 88px;
+  font-size: 101px;
   font-weight: lighter;
   text-shadow: 1px 1px 2px #073551;
   margin-top: 83px;
-  margin-bottom: 0;
-  letter-spacing: 2px; }
+  margin-bottom: 0; }
 .headline h2 {
   color: #073551;
   font-size: 12px;
@@ -152,10 +164,6 @@ h4 {
   bottom: 15px; }
 
 /* Article */
-p,
-span {
-  font-family: Oswald; }
-
 /* Sidebar */
 /* Subfooter */
 .sub-footer {

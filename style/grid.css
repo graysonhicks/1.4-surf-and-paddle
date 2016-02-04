@@ -1,7 +1,4 @@
 /* DOCUMENT */
-html {
-  max-width: 1301px; }
-
 img {
   max-width: 100%; }
 
@@ -18,9 +15,16 @@ ul {
 .header-container {
   height: 523px; }
 
+.top-nav {
+  max-width: 1018px;
+  margin: 0 auto;
+  padding-left: 15px; }
+
 .top-nav-list {
   float: right;
-  margin-right: 13%; }
+  margin-top: 17px;
+  padding-left: 0;
+  margin-right: 45px; }
   .top-nav-list li {
     float: left;
     display: inline; }
@@ -36,18 +40,23 @@ ul {
 .headline {
   margin: auto 0;
   text-align: center;
-  padding-top: 47px; }
+  padding-top: 43px; }
+  .headline h1 {
+    display: inline-block;
+    margin: 0 auto;
+    letter-spacing: 0.00001em; }
 
 .logo {
-  margin-left: 10.76923%;
   margin-top: 5px;
   height: 55px;
   width: 55px; }
 
-.top-nav span {
-  padding-left: 3px;
-  display: inline;
-  vertical-align: 121%; }
+.top-nav h2 {
+  padding-left: 4px;
+  display: inline-block;
+  vertical-align: middle; }
+.top-nav img {
+  vertical-align: middle; }
 
 /* ARTICLE */
 .article {

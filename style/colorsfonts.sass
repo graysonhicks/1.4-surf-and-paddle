@@ -16,6 +16,9 @@ $bordercolor: rgb(231, 235, 238)
 a
   text-decoration: none
 
+body
+  font-family: $contentfont
+
 h1,
 h2,
 h3,
@@ -25,6 +28,8 @@ h6
   font-family: $headingfont
   color: $darkheadingcolor
 
+
+
 /* Header */
 
 header
@@ -32,19 +37,21 @@ header
   background-size: cover,
   background-position: center
 
-.top-nav span
+.top-nav h2
   color: $darkheadingcolor
-  font-size: 14px
-  font-family: $headingfont
+  font-size: 15px
+  display: inline-block
+  font-weight: lighter
+  letter-spacing: .6px
 
 .top-nav,
 h1,
+h2,
 h3,
 h4
   text-transform: uppercase
 
 .top-nav-list
-  font-family: $contentfont
   i
     color: $darkheadingcolor
     font-size: 16px
@@ -55,12 +62,12 @@ h4
 .headline
   h1
     color: $headlinecolor
-    font-size: 88px
+    font-size: 101px
     font-weight: lighter
     text-shadow: 1px 1px 2px $darkheadingcolor
     margin-top: 83px
     margin-bottom: 0
-    letter-spacing: 2px
+
 
 
   h2
@@ -69,15 +76,9 @@ h4
     margin-top: 0
     position: relative
     bottom: 15px
-    
+
 
 /* Article */
-
-p,
-span
-  font-family: $contentfont
-
-
 
 /* Sidebar */
 

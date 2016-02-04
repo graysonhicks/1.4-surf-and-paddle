@@ -1,23 +1,23 @@
 /*
 Error: Undefined mixin 'bluetint'.
-        on line 31 of ./style/colorsfonts.sass, in `bluetint'
-        from line 31 of ./style/colorsfonts.sass
+        on line 36 of ./style/colorsfonts.sass, in `bluetint'
+        from line 36 of ./style/colorsfonts.sass
 
-26:   color: $darkheadingcolor
-27: 
-28: /* Header *\/
-29: 
-30: header
-31:   @include bluetint("../img/header.jpg")
-32:   background-size: cover,
-33:   background-position: center
+31: 
+32: 
+33: /* Header *\/
 34: 
-35: .top-nav span
-36:   color: $darkheadingcolor
+35: header
+36:   @include bluetint("../img/header.jpg")
+37:   background-size: cover,
+38:   background-position: center
+39: 
+40: .top-nav h2
+41:   color: $darkheadingcolor
 
 Backtrace:
-./style/colorsfonts.sass:31:in `bluetint'
-./style/colorsfonts.sass:31
+./style/colorsfonts.sass:36:in `bluetint'
+./style/colorsfonts.sass:36
 /Library/Ruby/Gems/2.0.0/gems/sass-3.4.20/lib/sass/tree/visitors/perform.rb:349:in `block in visit_mixin'
 /Library/Ruby/Gems/2.0.0/gems/sass-3.4.20/lib/sass/stack.rb:98:in `block in with_mixin'
 /Library/Ruby/Gems/2.0.0/gems/sass-3.4.20/lib/sass/stack.rb:115:in `with_frame'
@@ -72,4 +72,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined mixin 'bluetint'.\A         on line 31 of ./style/colorsfonts.sass, in `bluetint'\A         from line 31 of ./style/colorsfonts.sass\A \A 26:   color: $darkheadingcolor\A 27: \A 28: /* Header */\A 29: \A 30: header\A 31:   @include bluetint(\"../img/header.jpg\")\A 32:   background-size: cover,\A 33:   background-position: center\A 34: \A 35: .top-nav span\A 36:   color: $darkheadingcolor"; }
+  content: "Error: Undefined mixin 'bluetint'.\A         on line 36 of ./style/colorsfonts.sass, in `bluetint'\A         from line 36 of ./style/colorsfonts.sass\A \A 31: \A 32: \A 33: /* Header */\A 34: \A 35: header\A 36:   @include bluetint(\"../img/header.jpg\")\A 37:   background-size: cover,\A 38:   background-position: center\A 39: \A 40: .top-nav h2\A 41:   color: $darkheadingcolor"; }

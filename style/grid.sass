@@ -2,8 +2,6 @@
 
 /* DOCUMENT */
 
-html
-  max-width: 1301px
 
 img
   max-width: 100%
@@ -22,9 +20,16 @@ ul
 .header-container
   height: 523px
 
+.top-nav
+  max-width: 1018px
+  margin: 0 auto
+  padding-left: 15px
+
 .top-nav-list
   float: right
-  margin-right: percentage(169/1300)
+  margin-top: 17px
+  padding-left: 0
+  margin-right: 45px
   li
     float: left
     display: inline
@@ -39,18 +44,26 @@ ul
 
 .headline
   @include totalcenter
-  padding-top: 47px
+  padding-top: 43px
+  h1
+    display: inline-block
+    margin: 0 auto
+    letter-spacing: .00001em
 
 .logo
-  margin-left: percentage(140/1300)
   margin-top: 5px
   height: 55px
   width: 55px
 
-.top-nav span
-  padding-left: 3px
-  display: inline
-  vertical-align: 121%
+
+
+.top-nav
+  h2
+    padding-left: 4px
+    display: inline-block
+    vertical-align: middle
+  img
+    vertical-align: middle
 
 /* ARTICLE */
 
