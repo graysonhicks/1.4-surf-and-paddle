@@ -36,7 +36,8 @@ ul {
   .top-nav-list i {
     transform: rotateY(180deg);
     position: relative;
-    bottom: 2px; }
+    bottom: 3px;
+    right: 6px; }
 
 .headline {
   margin: auto 0;
@@ -86,12 +87,9 @@ ul {
 .date {
   vertical-align: middle; }
 
-.authorheadshot img {
+img.authorheadshot {
   height: 23px;
   width: 23px;
-  border-radius: 100%; }
-
-.headshot img {
   border-radius: 100%; }
 
 .name {
@@ -139,11 +137,15 @@ ul {
   padding-left: 75px;
   max-width: 33%; }
 
+.author-pic {
+  text-align: center;
+  padding-left: 40px; }
+
+img.headshot {
+  border-radius: 100%; }
+
 .advertisement {
   text-align: right; }
-
-.author-pic {
-  text-align: center; }
 
 .author-social li {
   float: left;
@@ -218,13 +220,13 @@ h3 {
   font-size: 104px;
   line-height: 104px;
   font-weight: 400;
-  letter-spacing: -3px; }
+  letter-spacing: -4px; }
 .headline h4 {
   font-family: Open sans;
   color: #073551;
   font-size: 15px;
-  letter-spacing: -1px;
-  font-weight: 400; }
+  letter-spacing: -0.75px;
+  font-weight: 700; }
 
 /* Article */
 .article h1 {

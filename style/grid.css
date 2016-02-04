@@ -36,7 +36,8 @@ ul {
   .top-nav-list i {
     transform: rotateY(180deg);
     position: relative;
-    bottom: 2px; }
+    bottom: 3px;
+    right: 6px; }
 
 .headline {
   margin: auto 0;
@@ -86,12 +87,9 @@ ul {
 .date {
   vertical-align: middle; }
 
-.authorheadshot img {
+img.authorheadshot {
   height: 23px;
   width: 23px;
-  border-radius: 100%; }
-
-.headshot img {
   border-radius: 100%; }
 
 .name {
@@ -139,11 +137,15 @@ ul {
   padding-left: 75px;
   max-width: 33%; }
 
+.author-pic {
+  text-align: center;
+  padding-left: 40px; }
+
+img.headshot {
+  border-radius: 100%; }
+
 .advertisement {
   text-align: right; }
-
-.author-pic {
-  text-align: center; }
 
 .author-social li {
   float: left;

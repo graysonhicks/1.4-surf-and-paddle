@@ -40,7 +40,8 @@ ul
   i
     transform: rotateY(180deg)
     position: relative
-    bottom: 2px
+    bottom: 3px
+    right: 6px
 
 .headline
   @include totalcenter
@@ -90,15 +91,10 @@ ul
 .date
   vertical-align: middle
 
-.authorheadshot
-  img
-    height: 23px
-    width: 23px
-    border-radius: 100%
-
-.headshot
-  img
-    border-radius: 100%
+img.authorheadshot
+  height: 23px
+  width: 23px
+  border-radius: 100%
 
 .name
   padding-left: 7px
@@ -148,11 +144,15 @@ ul
   padding-left: 75px
   max-width: 33%
 
-.advertisement
-  text-align: right
-
 .author-pic
   text-align: center
+  padding-left: 40px
+
+img.headshot
+  border-radius: 100%
+
+.advertisement
+  text-align: right
 
 .author-social li
   @include listflatten
