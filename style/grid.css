@@ -61,7 +61,8 @@ ul {
 .main-content {
   padding-top: 26px;
   max-width: 75.38462%;
-  margin: 0 auto;
+  margin-left: 12.30769%;
+  margin-right: 12.30769%;
   padding-left: 0; }
 
 .article {
@@ -134,22 +135,33 @@ img.authorheadshot {
 .sidebar {
   display: inline-block;
   padding-top: 57px;
-  padding-left: 75px;
+  margin-left: 0px;
   max-width: 33%; }
 
 .author-pic {
   text-align: center;
   padding-left: 40px; }
+  .author-pic h4 {
+    margin-top: 8px; }
 
 img.headshot {
   border-radius: 100%; }
 
+.author-social {
+  padding-left: 0px; }
+  .author-social li {
+    float: left;
+    display: inline-block; }
+    .author-social li a {
+      padding-left: 10px;
+      padding-right: 10px; }
+
 .advertisement {
   text-align: right; }
-
-.author-social li {
-  float: left;
-  display: inline-block; }
+  .advertisement img {
+    margin-top: 28px;
+    width: 280px;
+    height: 300px; }
 
 /* Subfooter */
 .sub-footer {

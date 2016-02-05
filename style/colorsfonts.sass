@@ -27,11 +27,12 @@ header
   background-position: center
 
 .top-nav h2
+  font-family: $headingfont
   color: $darkblue
-  font-size: 15px
+  font-size: 16px
   display: inline-block
-  font-weight: lighter
-  letter-spacing: .6px
+  font-weight: 400
+  letter-spacing: -.2px
 
 .top-nav,
 h1,
@@ -119,12 +120,23 @@ h3,
   color: $headlinecolor
   background-color: $darkblue
 
-
-
-
-
-
 /* Sidebar */
+
+.author-pic
+  h4
+    text-transform: uppercase
+    font-family: $headingfont
+    color: $lightblue
+
+.author-social
+  li
+    font-size: 13px
+    &:first-of-type
+      border-right: 1px solid $graycolor
+    &:last-of-type
+      border-left: 1px solid $graycolor
+    a
+      color: $graycolor
 
 /* Subfooter */
 
