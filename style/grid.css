@@ -96,11 +96,12 @@ ul {
 .date {
   vertical-align: middle; }
 
-img.authorheadshot {
-  height: 23px;
-  width: 23px;
+span.authorheadshot {
+  height: 22px;
+  width: 22px;
   border-radius: 100%;
-  padding-bottom: 2px; }
+  padding-bottom: 2px;
+  display: inline-block; }
 
 .name {
   padding-left: 6px; }
@@ -185,8 +186,11 @@ img.authorheadshot {
     margin-left: 1px;
     margin-bottom: 0; }
 
-img.headshot {
-  border-radius: 100%; }
+span.headshot {
+  border-radius: 100%;
+  display: inline-block;
+  height: 84px;
+  width: 84px; }
 
 .author-social {
   padding-left: 0px;
@@ -202,10 +206,11 @@ img.headshot {
 .advertisement {
   text-align: right; }
 
-.adpic img {
+.adpic span {
   margin-top: 29px;
   width: 280px;
-  height: 300px; }
+  height: 300px;
+  display: inline-block; }
 
 .adcaption {
   display: inline-block;
@@ -225,20 +230,49 @@ img.headshot {
   text-align: center;
   content: "";
   clear: both;
-  display: block; }
-
-.footer-images-list {
-  padding: 0; }
-  .footer-images-list li {
-    float: left;
-    display: inline-block;
-    margin-left: -5px;
-    width: 25%; }
+  display: block;
+  margin-top: 73px; }
+  .sub-footer h1 {
+    margin-top: 23px;
+    margin-bottom: 8px;
+    padding-left: 2.61538%;
+    line-height: 98px;
+    position: relative;
+    bottom: 2px; }
 
 /*FOOTER */
 footer {
   margin: 0;
-  padding: 0; }
+  padding: 0;
+  max-width: 100%; }
+
+.footer-images-list {
+  display: inline-block;
+  width: 100%;
+  padding: 0;
+  margin-bottom: 0px; }
+  .footer-images-list li {
+    float: left;
+    display: inline-block;
+    width: 25%;
+    height: 331px; }
+    .footer-images-list li a {
+      display: inline-block;
+      height: 331px;
+      width: 100%; }
+    .footer-images-list li span {
+      display: inline-block;
+      float: left;
+      position: relative;
+      left: 15px;
+      top: 280px; }
+    .footer-images-list li .longposttitle {
+      top: 240px; }
+
+.footer-nav {
+  content: "";
+  clear: both;
+  display: block; }
 
 .footer-nav-list {
   float: right; }

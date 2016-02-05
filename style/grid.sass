@@ -100,11 +100,12 @@ ul
 .date
   vertical-align: middle
 
-img.authorheadshot
-  height: 23px
-  width: 23px
+span.authorheadshot
+  height: 22px
+  width: 22px
   border-radius: 100%
   padding-bottom: 2px
+  display: inline-block
 
 .name
   padding-left: 6px
@@ -195,8 +196,11 @@ img.authorheadshot
     margin-left: 1px
     margin-bottom: 0
 
-img.headshot
+span.headshot
   border-radius: 100%
+  display: inline-block
+  height: 84px
+  width: 84px
 
 .author-social
   padding-left: 0px
@@ -212,10 +216,11 @@ img.headshot
   text-align: right
 
 .adpic
-  img
+  span
     margin-top: 29px
     width: 280px
     height: 300px
+    display: inline-block
 
 .adcaption
   display: inline-block
@@ -234,22 +239,49 @@ img.headshot
 
 .sub-footer
   @include totalcenter
-  content: ""
-  clear: both
-  display: block
+  @include clearfix
+  margin-top: 73px
 
-.footer-images-list
-  padding: 0
-  li
-    @include listflatten
-    margin-left: -5px
-    width: percentage(325/1300)
+  h1
+    margin-top: 23px
+    margin-bottom: 8px
+    padding-left: percentage(34/1300)
+    line-height: 98px
+    position: relative
+    bottom: 2px
 
 /*FOOTER*/
+
 
 footer
   margin: 0
   padding: 0
+  max-width: 100%
+
+.footer-images-list
+  display: inline-block
+  width: 100%
+  padding: 0
+  margin-bottom: 0px
+  li
+    @include listflatten
+    width: percentage(325/1300)
+    height: 331px
+    a
+      display: inline-block
+      height: 331px
+      width: 100%
+    span
+      display: inline-block
+      float: left
+      position: relative
+      left: 15px
+      top: 280px
+    .longposttitle
+      top: 240px
+
+.footer-nav
+  @include clearfix
 
 .footer-nav-list
   float: right

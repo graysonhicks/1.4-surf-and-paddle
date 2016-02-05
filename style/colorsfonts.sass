@@ -78,6 +78,10 @@ h3,
     line-height: 61px
     font-weight: 300
 
+span.authorheadshot
+  @include bluetint("../img/authorlogo.jpg")
+  background-size: contain
+
 .name
   color: $lightblue
   font-size: 12px
@@ -144,6 +148,10 @@ h3,
 
 /* Sidebar */
 
+span.headshot
+  @include bluetint("../img/authorlogo.jpg")
+  background-size: contain
+
 .author-pic
   h4
     text-transform: uppercase
@@ -165,6 +173,10 @@ h3,
     font-weight: lighter
     text-decoration: underline
 
+.adpic
+  span
+    @include bluetint("../img/ad.jpg")
+
 .sidebar-content
   h3
     color: $lightblue
@@ -180,5 +192,45 @@ h3,
 
 .sub-footer
   border-top: 1px solid $bordercolor
+  h1
+    font-size: 61px
+    color: $darkblue
+    letter-spacing: 1.25px
+    font-weight: lighter
 
 /*Footer*/
+
+.footer-images-list
+  li:first-of-type
+    @include bluetint("../img/subfooter1.jpg")
+    background-size: cover
+    &:hover
+      @include cleartint("../img/subfooter1.jpg")
+
+  li:nth-of-type(2)
+    @include bluetint("../img/subfooter2.jpg")
+    background-size: cover
+    &:hover
+      @include cleartint("../img/subfooter2.jpg")
+
+  li:nth-of-type(3)
+    @include bluetint("../img/subfooter3.jpg")
+    background-size: cover
+    line-height: 37px
+    &:hover
+      @include cleartint("../img/subfooter3.jpg")
+
+  li:nth-of-type(4)
+    @include bluetint("../img/subfooter4.jpg")
+    background-size: cover
+    &:hover
+      @include cleartint("../img/subfooter4.jpg")
+
+  a
+    font-family: $contentfont
+    font-size: 30px
+    color: $darkblue
+    text-transform: uppercase
+
+.footer-nav
+  background-color: $darkblue
