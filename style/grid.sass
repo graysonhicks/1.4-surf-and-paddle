@@ -20,28 +20,32 @@ ul
   max-width: 1018px
   margin: 0 auto
   h2
-    padding-left: 4px
+    padding-left: 2px
+    padding-top: 3px
     display: inline-block
     vertical-align: middle
   img
     vertical-align: middle
+    padding-right: 3px
 
 .top-nav-list
   float: right
   margin-top: 17px
+  position: relative
+  left: 2px
   li
     float: left
     display: inline
     &:nth-child(2)
-      padding-left: 15px
+      padding-left: 20px
     &:nth-child(3)
-      padding-left: 7px
+      padding-left: 0px
     letter-spacing: .1px
+
   i
     transform: rotateY(180deg)
     position: relative
-    bottom: 3px
-    right: 6px
+
 
 .headline
   @include totalcenter
@@ -282,8 +286,34 @@ footer
 
 .footer-nav
   @include clearfix
+  margin-top: -5px
+  height: 97px
+  max-width: 1018px
+  margin-left: auto
+  margin-right: auto
+  a
+    display: inline-block
+    vertical-align: middle
+    padding-left: 26px
+    padding-top: 14px
+  p
+    display: inline-block
+    margin-top: 0
+    margin-bottom: 0
+    vertical-align: middle
+    padding-top: 12px
+
+
 
 .footer-nav-list
   float: right
+  padding-top: 23px
+  padding-left: 41px
   li
     @include listflatten
+    padding-left: 6px
+    padding-right: 6px
+    a
+      padding-left: 0
+      padding-top: 0
+      padding-bottom: 2px

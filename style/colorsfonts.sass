@@ -42,12 +42,14 @@ h3,
   text-transform: uppercase
 
 .top-nav-list
-  i
+  img
     color: $darkblue
     font-size: 18px
   a
     color: $darkblue
     font-size: 18px
+    &:hover
+      color: $headlinecolor
 
 .headline
   h1
@@ -64,7 +66,7 @@ h3,
     font-family: $headingfont
     color: $darkblue
     font-size: 15px
-    letter-spacing: -.75px
+    letter-spacing: -1px
     font-weight: 700
 
 
@@ -81,6 +83,8 @@ h3,
 span.authorheadshot
   @include bluetint("../img/authorlogo.jpg")
   background-size: contain
+  &:hover
+    @include cleartint("../img/authorlogo.jpg")
 
 .name
   color: $lightblue
@@ -115,7 +119,7 @@ span.authorheadshot
     color: $lightblue
     font-size: 28px
     line-height: 28px
-    letter-spacing: -1px
+    letter-spacing: -.75px
 
 .dical
   position: relative
@@ -151,6 +155,8 @@ span.authorheadshot
 span.headshot
   @include bluetint("../img/authorlogo.jpg")
   background-size: contain
+  &:hover
+    @include cleartint("../img/authorlogo.jpg")
 
 .author-pic
   h4
@@ -176,6 +182,8 @@ span.headshot
 .adpic
   span
     @include bluetint("../img/ad.jpg")
+    &:hover
+      @include cleartint("../img/ad.jpg")
 
 .sidebar-content
   h3
@@ -201,6 +209,7 @@ span.headshot
 /*Footer*/
 
 .footer-images-list
+
   li:first-of-type
     @include bluetint("../img/subfooter1.jpg")
     background-size: cover
@@ -225,12 +234,30 @@ span.headshot
     background-size: cover
     &:hover
       @include cleartint("../img/subfooter4.jpg")
-
   a
     font-family: $contentfont
     font-size: 30px
     color: $darkblue
     text-transform: uppercase
 
-.footer-nav
+.bottom-footer
   background-color: $darkblue
+
+.footer-nav
+  p
+    color: $graycolor
+    font-family: $articlefont
+    font-weight: lighter
+    letter-spacing: -.2px
+  a
+    text-decoration: none
+    color: $graycolor
+    font-family: $articlefont
+    font-size: 15px
+    letter-spacing: .3px
+
+.footer-nav-list
+  li
+    line-height: 13px
+  li:nth-of-type(n+2)
+    border-left: 1px solid $graycolor
