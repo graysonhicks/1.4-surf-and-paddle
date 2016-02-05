@@ -10,6 +10,7 @@ $headlineshadowcolor: $lightblue
 $bordercolor: rgb(231, 235, 238)
 $graycolor: rgb(164, 179, 191)
 $articletext: rgb(94, 104, 111)
+$articlefont: Source Sans Pro
 
 
 /* Document */
@@ -71,10 +72,10 @@ h3,
 
 .article
   h1
-    font-size: 61px
-    letter-spacing: .5px
+    font-size: 62px
+    letter-spacing: .03px
     font-family: $contentfont
-    line-height: 60px
+    line-height: 61px
     font-weight: 300
 
 .name
@@ -85,24 +86,40 @@ h3,
 
 .article-date
   color: $graycolor
-  font-size: 12px
+  font-size: 13px
   font-family: $headingfont
   &:last-of-type
     text-decoration: underline
 
 .article-content
   font-family: $headingfont
-  font-size: 16px
-  line-height: 28px
-  letter-spacing: -.5px
+  font-size: 15px
+  line-height: 26px
   color: $articletext
+  p:first-of-type
+    letter-spacing: .03px
+  p:nth-child(5)
+    letter-spacing: .03px
+
+.chic-mixtape
+  text-decoration: underline
+  color: $graycolor
 
 .article-insert
-  border-left: 2px solid $graycolor
+  border-left: 2px solid darken($bordercolor, 5%)
   h3
     color: $lightblue
     font-size: 28px
     line-height: 28px
+    letter-spacing: -1px
+
+.dical
+  position: relative
+  left: 3px
+
+.aliqua
+  color: $lightblue
+  text-decoration: underline
 
 .article-footer
   a
@@ -110,6 +127,11 @@ h3,
     background-color: $graycolor
     &:last-of-type
       background-color: $lightblue
+    span
+      font-family: $articlefont
+      font-size: 15px
+      letter-spacing: .03px
+      font-weight: 300
 
 .fa-comment,
 .fa-cloud-upload
@@ -130,13 +152,10 @@ h3,
 
 .author-social
   li
-    font-size: 13px
-    &:first-of-type
-      border-right: 1px solid $graycolor
-    &:last-of-type
-      border-left: 1px solid $graycolor
+    font-size: 14px
     a
       color: $graycolor
+      font-family: $articlefont
 
 /* Subfooter */
 

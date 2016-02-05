@@ -63,24 +63,33 @@ ul
 /* ARTICLE */
 
 .main-content
+  max-width: 1018px
   padding-top: 26px
-  max-width: 75.384615384615%
-  margin-left: 12.307692307692%
-  margin-right: 12.307692307692%
   padding-left: 0
+  margin-left: 164px
 
 .article
   display: inline-block
-  padding-left: 8px
-  max-width: 66%
-  float: left
+  max-width: percentage(613/1018)
+
   h1
-    line-height: 60px
     margin-bottom: 20px
+
+.antastic
+  position: relative
+  right: 5px
+
+.en
+  position: relative
+  right: 5px
+
+.goes-here
+  position: relative
+  left: 10px
 
 .secondheadingline
   display: inline-block
-  margin-top: 10px
+  padding-top: 9px
 
 .authorinfo-block
   position: relative
@@ -96,10 +105,13 @@ img.authorheadshot
   height: 23px
   width: 23px
   border-radius: 100%
+  padding-bottom: 2px
 
 .name
-  padding-left: 7px
-  padding-top: 2px
+  padding-left: 6px
+
+.last-name
+  padding-left: 1px
 
 .article-date
   position: relative
@@ -107,55 +119,90 @@ img.authorheadshot
 
 .article-content
   p:first-of-type
-    padding-top: 9px
+    margin-top: 22px
   p:nth-child(2)
+    margin-top: 25px
     margin-bottom: 14px
+  p:nth-child(4)
+    margin-top: 34px
+  p:nth-child(5)
+    margin-top: 27px
 
 .article-insert
-  height: 57px
-  margin-left: 4px
-  margin-bottom: 28px
+  height: 56px
+  margin-left: 5px
+  position: relative
+  top: 8px
+
   h3
-    padding-left: 17px
-    padding-top: 19px
-    margin-top: 0
-    margin-bottom: 0
-    vertical-align: middle
+    display: inline-block
+    position: relative
+    bottom: 11px
+    left: 18px
 
 .article-footer
+  display: block
+  position: relative
+  top: 4px
+  left: 2px
   a
     display: inline-block
     height: 30px
     width: 158px
+
+    &:nth-of-type(2)
+      width: 128px
+      margin-left: 7px
+    &:nth-of-type(3)
+      width: 154px
+      margin-left: 7px
     i
       display: inline-block
       width: 33px
       height: 30px
       vertical-align: middle
+      padding-top: 7px
+      padding-left: 11px
+      margin: auto
+      &:first-of-type,
+      &:nth-of-type(2)
+        padding-left: 9px
     span
       height: 30px
       display: inline-block
       vertical-align: middle
+      margin: auto
+      padding-top: 4px
+      padding-left: 10px
+      &:first-of-type
+        padding-left: 11px
+      &:nth-of-type(2)
+        padding-left: 12px
+
 
 /* SIDEBAR */
 
 .sidebar
   display: inline-block
-  padding-top: 57px
-  margin-left: 0px
-  max-width: 33%
+  vertical-align: top
+  margin-left: 81px
+  max-width: percentage(278/1018)
 
 .author-pic
   text-align: center
-  padding-left: 40px
+  padding-top: 58px
   h4
-    margin-top: 8px
+    margin-top: 5px
+    margin-left: 1px
+    margin-bottom: 0
 
 img.headshot
   border-radius: 100%
 
 .author-social
   padding-left: 0px
+  display: inline-block
+  margin-top: 0
   li
     @include listflatten
     a
