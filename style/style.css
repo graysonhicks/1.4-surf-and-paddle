@@ -191,7 +191,7 @@ img.headshot {
 .author-social {
   padding-left: 0px;
   display: inline-block;
-  margin-top: 0; }
+  margin-top: -2px; }
   .author-social li {
     float: left;
     display: inline-block; }
@@ -201,10 +201,23 @@ img.headshot {
 
 .advertisement {
   text-align: right; }
-  .advertisement img {
-    margin-top: 28px;
-    width: 280px;
-    height: 300px; }
+
+.adpic img {
+  margin-top: 29px;
+  width: 280px;
+  height: 300px; }
+
+.adcaption {
+  display: inline-block;
+  position: relative;
+  bottom: 2px; }
+
+.sidebar-content h3 {
+  padding-top: 21px;
+  margin-bottom: 0px; }
+.sidebar-content p {
+  margin-top: 5px;
+  line-height: 24px; }
 
 /* Subfooter */
 .sub-footer {
@@ -366,6 +379,23 @@ h3 {
   .author-social li a {
     color: #a4b3bf;
     font-family: Source Sans Pro; }
+
+.advertisement a:last-child {
+  color: #a4b3bf;
+  font-size: 15px;
+  font-family: Source Sans Pro;
+  font-weight: lighter;
+  text-decoration: underline; }
+
+.sidebar-content h3 {
+  color: #106eb1;
+  letter-spacing: -0.4px; }
+.sidebar-content p {
+  font-family: Source Sans Pro;
+  color: #a4b3bf;
+  font-weight: lighter;
+  font-size: 15px;
+  letter-spacing: 0.1px; }
 
 /* Subfooter */
 .sub-footer {
