@@ -1,4 +1,5 @@
 @media (max-width: 1024px) {
+  /* TABLET */
   .top-nav-list {
     margin-right: 100px; }
 
@@ -9,6 +10,7 @@
   .top-nav h2 {
     display: none; } }
 @media (max-width: 600px) {
+  /*SMARTPHONE */
   /*Header */
   .header-container {
     height: 250px; }
