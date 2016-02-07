@@ -662,6 +662,8 @@ span.headshot {
     line-height: inherit;
     letter-spacing: normal;
     padding-left: 0; }
+  .headline h4 {
+    left: 0; }
 
   /* Article */
   .main-content {
