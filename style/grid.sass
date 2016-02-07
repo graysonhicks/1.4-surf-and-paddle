@@ -162,7 +162,6 @@ span.authorheadshot
     display: inline-block
     height: 30px
     width: 158px
-
     &:nth-of-type(2)
       width: 128px
       margin-left: 7px
@@ -312,10 +311,21 @@ footer
     vertical-align: middle
     padding-top: 12px
 
-
-
 .footer-nav-list
   float: right
+  padding-top: 23px
+  padding-left: 41px
+  li
+    @include listflatten
+    padding-left: 6px
+    padding-right: 6px
+    a
+      padding-left: 0
+      padding-top: 0
+      padding-bottom: 2px
+
+.footer-nav-list-mobile
+  display: none
   padding-top: 23px
   padding-left: 41px
   li
