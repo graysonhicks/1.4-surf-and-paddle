@@ -18,9 +18,38 @@
   .main-content {
     margin-left: 5%; }
 
+  .article h1 {
+    font-size: 48px; }
+
+  .en {
+    right: 0px;
+    left: 3px; }
+
+  .goes-here {
+    left: 5px; }
+
+  /*Sidebar */
   .sidebar {
-    margin-left: 3%; } }
-@media (max-width: 600px) {
+    margin-left: 3%; }
+
+  .adcaption {
+    left: 10px; }
+
+  /*Subfooter */
+  .sub-footer h1 {
+    font-size: 48px; }
+
+  /* Footer */
+  .footer-images-list a {
+    font-size: 24px; }
+
+  .footer-nav-list {
+    padding-left: 0px;
+    padding-right: 45px; } }
+@media (max-width: 768px) {
+  body {
+    display: none; } }
+@media (max-width: 320px) {
   /*Smartphone */
   /*Header */
   .header-container {
