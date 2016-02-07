@@ -379,8 +379,8 @@ h3 {
   font-family: Open sans;
   color: #073551;
   font-size: 15px;
-  letter-spacing: 0px;
-  font-weight: 400; }
+  letter-spacing: -1px;
+  font-weight: 700; }
 
 /* Article */
 .article h1 {
@@ -584,7 +584,7 @@ span.headshot {
   border-left: 1px solid #a4b3bf; }
 
 @media (max-width: 1024px) {
-  /* TABLET */
+  /*Tablet */
   .top-nav-list {
     margin-right: 100px; }
 
@@ -595,7 +595,7 @@ span.headshot {
   .top-nav h2 {
     display: none; } }
 @media (max-width: 600px) {
-  /*SMARTPHONE */
+  /*Smartphone */
   /*Header */
   .header-container {
     height: 250px; }
