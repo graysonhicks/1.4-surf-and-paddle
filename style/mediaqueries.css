@@ -1,160 +1,61 @@
-@media (max-width: 1024px) {
-  /*Tablet */
-  /*Header */
-  .top-nav-list {
-    margin-right: 100px; }
+/*
+Error: Invalid CSS after "and ": expected selector, was "(min-device-wid..."
+        on line 59 of ./style/mediaqueries.sass
 
-  .headline h1 {
-    font-size: 72px;
-    margin-top: 140px; }
+54:   .footer-nav-list
+55:     padding-left: 0px
+56:     padding-right: 45px
+57:  
+58: @media only screen
+59: and (min-device-width : 320px)
+60: and (max-device-width : 568px)
+61:   /*Smartphone*\/
+62:   /*Header*\/
+63: 
+64:   .header-container
 
-  .top-nav h2 {
-    display: none; }
-
-  .top-nav img.logo {
-    margin-left: 100px; }
-
-  /*Article */
-  .main-content {
-    margin-left: 5%; }
-
-  .article h1 {
-    font-size: 48px; }
-
-  .en {
-    right: 0px;
-    left: 3px; }
-
-  .goes-here {
-    left: 5px; }
-
-  /*Sidebar */
-  .sidebar {
-    margin-left: 3%; }
-
-  .adcaption {
-    left: 10px; }
-
-  /*Subfooter */
-  .sub-footer h1 {
-    font-size: 48px; }
-
-  /* Footer */
-  .footer-images-list a {
-    font-size: 24px; }
-
-  .footer-nav-list {
-    padding-left: 0px;
-    padding-right: 45px; } }
-@media (max-width: 400px) {
-  /*Smartphone */
-  /*Header */
-  .header-container {
-    height: 250px; }
-
-  .top-nav {
-    display: inline-block;
-    margin-left: 30%;
-    text-align: center; }
-
-  .top-nav-list {
-    display: inline-block;
-    margin-top: 17px;
-    padding-left: 0; }
-    .top-nav-list li {
-      margin: 0 auto; }
-
-  .logo {
-    display: block; }
-
-  .top-nav img.logo {
-    margin-left: 18%; }
-
-  .headline h1 {
-    margin-top: 1px;
-    font-size: 40px;
-    line-height: inherit;
-    letter-spacing: normal;
-    padding-left: 0; }
-  .headline h4 {
-    left: 0; }
-
-  /* Article */
-  .main-content {
-    margin-left: 3%; }
-
-  .article {
-    max-width: 90%; }
-    .article h1 {
-      font-size: 50px;
-      text-align: left; }
-
-  .secondheadingline {
-    padding-top: 0; }
-
-  .antastic,
-  .en,
-  .goes-here {
-    position: static; }
-
-  span.authorheadshot,
-  .name,
-  .last-name,
-  .article-date:first-of-type {
-    display: none; }
-
-  .article-footer a {
-    width: 33px; }
-    .article-footer a:nth-of-type(2) {
-      width: 33px; }
-    .article-footer a:nth-of-type(3) {
-      width: 33px; }
-    .article-footer a span {
-      display: none; }
-
-  /* Sidebar */
-  .sidebar {
-    margin: 0 auto;
-    max-width: 95%;
-    display: block; }
-
-  .advertisement {
-    text-align: center; }
-
-  .adcaption {
-    padding-left: 190px; }
-
-  div.sidebar-content {
-    display: none; }
-
-  /* Subfooter */
-  .sub-footer h1 {
-    font-size: 40px;
-    line-height: 46px; }
-
-  /* Footer */
-  .bottom-footer {
-    height: 225px;
-    text-align: center; }
-
-  .footer-images-list li {
-    display: block;
-    width: 80%;
-    margin-left: 10%;
-    margin-bottom: 20px; }
-
-  .footer-nav p,
-  .footer-nav a,
-  .footer-nav img {
-    display: block; }
-  .footer-nav img {
-    padding-top: 0px;
-    margin-left: 34%; }
-
-  .footer-nav-list {
-    display: none; }
-
-  .footer-nav-list-mobile {
-    display: inline-block; } }
-
-/*# sourceMappingURL=mediaqueries.css.map */
+Backtrace:
+./style/mediaqueries.sass:59
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.20/lib/sass/scss/parser.rb:1179:in `expected'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.20/lib/sass/scss/parser.rb:1115:in `expected'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.20/lib/sass/scss/static_parser.rb:21:in `parse_selector'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.20/lib/sass/tree/visitors/perform.rb:425:in `visit_rule'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.20/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.20/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.20/lib/sass/stack.rb:79:in `block in with_base'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.20/lib/sass/stack.rb:115:in `with_frame'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.20/lib/sass/stack.rb:79:in `with_base'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.20/lib/sass/tree/visitors/perform.rb:158:in `visit'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.20/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.20/lib/sass/tree/visitors/base.rb:52:in `map'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.20/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.20/lib/sass/tree/visitors/perform.rb:167:in `block in visit_children'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.20/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.20/lib/sass/tree/visitors/perform.rb:166:in `visit_children'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.20/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.20/lib/sass/tree/visitors/perform.rb:186:in `visit_root'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.20/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.20/lib/sass/tree/visitors/perform.rb:157:in `visit'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.20/lib/sass/tree/visitors/perform.rb:8:in `visit'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.20/lib/sass/tree/root_node.rb:36:in `css_tree'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.20/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.20/lib/sass/engine.rb:378:in `_render_with_sourcemap'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.20/lib/sass/engine.rb:295:in `render_with_sourcemap'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.20/lib/sass/plugin/compiler.rb:490:in `update_stylesheet'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.20/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.20/lib/sass/plugin/compiler.rb:209:in `each'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.20/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.20/lib/sass/plugin/compiler.rb:470:in `on_file_changed'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.20/lib/sass/plugin/compiler.rb:328:in `block in watch'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.20/vendor/listen/lib/listen/listener.rb:252:in `call'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.20/vendor/listen/lib/listen/listener.rb:252:in `on_change'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.20/vendor/listen/lib/listen/listener.rb:290:in `block in initialize_adapter'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.20/vendor/listen/lib/listen/adapter.rb:254:in `call'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.20/vendor/listen/lib/listen/adapter.rb:254:in `report_changes'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.20/vendor/listen/lib/listen/adapter.rb:323:in `poll_changed_directories'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.20/vendor/listen/lib/listen/adapter.rb:299:in `block in start_poller'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Invalid CSS after \"and \": expected selector, was \"(min-device-wid...\"\A         on line 59 of ./style/mediaqueries.sass\A \A 54:   .footer-nav-list\A 55:     padding-left: 0px\A 56:     padding-right: 45px\A 57:  \A 58: @media only screen\A 59: and (min-device-width : 320px)\A 60: and (max-device-width : 568px)\A 61:   /*Smartphone*/\A 62:   /*Header*/\A 63: \A 64:   .header-container"; }
