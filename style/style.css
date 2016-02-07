@@ -631,10 +631,7 @@ span.headshot {
   .footer-nav-list {
     padding-left: 0px;
     padding-right: 45px; } }
-@media (max-width: 768px) {
-  body {
-    display: none; } }
-@media (max-width: 320px) {
+@media (max-width: 375px) {
   /*Smartphone */
   /*Header */
   .header-container {
