@@ -159,15 +159,23 @@
       display: none; }
 
   /* Sidebar */
+  .sidebar {
+    max-width: 90%; }
+
   .advertisement {
     text-align: center;
-    display: block; }
+    display: block;
+    margin-bottom: 15px;
+    float: none;
+    margin-right: auto; }
 
   .adcaption {
     padding-left: 190px; }
 
   .author-pic {
-    display: block; }
+    display: block;
+    padding-left: 0px;
+    padding-top: 48px; }
 
   div.sidebar-content {
     display: none; }
@@ -200,6 +208,7 @@
     display: none; }
 
   .footer-nav-list-mobile {
-    display: inline-block; } }
+    display: inline-block;
+    margin-left: -2%; } }
 
 /*# sourceMappingURL=mediaqueries.css.map */
